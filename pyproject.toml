@@ -1,0 +1,28 @@
+[project]
+name = "todo-app"
+version = "0.1.0"
+description = "A todo application with FastAPI"
+authors = [
+    {name = "ksunho0660"}
+]
+readme = "README.md"
+requires-python = "^3.9"
+dependencies = [
+    "fastapi (>=0.115.12,<0.116.0)",
+    "uvicorn (>=0.34.2,<0.35.0)",
+    "pytest (>=8.3.5,<9.0.0)",
+    "pytest-asyncio (>=0.26.0,<0.27.0)",
+    "sqlalchemy (>=2.0.40,<3.0.0)",
+    "pydantic (>=2.11.4,<3.0.0)",
+    "python-jose[cryptography] (>=3.4.0,<4.0.0)",
+    "passlib[bcrypt] (>=1.7.4,<2.0.0)",
+    "python-multipart (>=0.0.20,<0.0.21)",
+    "httpx (>=0.28.1,<0.29.0)",
+    "email-validator (>=2.2.0,<3.0.0)",
+    "jinja2 (>=3.1.6,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
